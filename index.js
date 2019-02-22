@@ -16,7 +16,7 @@ function banner (options = {}) {
  * ${options.homepage}
  *
  * Copyright (c) ${options.year} ${options.author}
- *${options.license ? ` Licensed under the ${options.license} license\n *` : ''}/\n
+ *${options.license ? ` Licensed under the ${options.license} license\n *` : ''}/
 `
 
 	if (!options.source) {
